@@ -1,0 +1,20 @@
+{
+  "name": "bun-plugin-workers",
+  "description": "A reproduction repo for using Bun plugins within Workers",
+  "homepage": "https://github.com/thescientist13/bun-plugin-workers#readme",
+  "author": "Owen Buckley <owen@thegreenhouse.io>",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thescientist13/bun-plugin-workers"
+  },
+  "dependencies": {
+    "@lit-labs/ssr": "^3.3.1",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.22",
+    "@types/node": "^24.5.2",
+    "typescript": "^5.8.2"
+  }
+}
