@@ -24,7 +24,7 @@ onLoad {
   },
 }
 {
-  ssrContents: "<!--lit-part My2136iVtRs=-->\n  <!--lit-node 0--><simple-greeting ></simple-greeting>\n<!--/lit-part-->",
+  ssrContents: "<!--lit-part JaBtcnAehU8=-->\n  <!--lit-node 0--><simple-greeting name=\"Bun\"></simple-greeting>\n<!--/lit-part-->",
 }
 ```
 
@@ -47,6 +47,6 @@ In the non-workers example, it looks like although it runs, the SimpleGreeting c
 
 ```sh
 {
-  ssrContents: "<!--lit-part My2136iVtRs=-->\n  <!--lit-node 0--><simple-greeting ></simple-greeting>\n<!--/lit-part-->",
+  ssrContents: "<!--lit-part JaBtcnAehU8=-->\n  <!--lit-node 0--><simple-greeting name=\"Bun\"></simple-greeting>\n<!--/lit-part-->",
 }
 ```

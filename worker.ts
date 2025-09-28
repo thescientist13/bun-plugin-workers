@@ -1,7 +1,6 @@
 import { parentPort, workerData } from 'worker_threads';
-import { render } from '@lit-labs/ssr';
+import { render, html } from '@lit-labs/ssr';
 import { collectResult } from '@lit-labs/ssr/lib/render-result.js'
-import { html } from 'lit';
 import './simple-greeting.ts';
 
 const template = (name: string) => html`

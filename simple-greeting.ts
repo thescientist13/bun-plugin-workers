@@ -5,8 +5,13 @@ import { customElement, property } from 'lit/decorators.js';
 export class SimpleGreeting extends LitElement {
   static styles = css`p { color: blue }`;
 
-  @property()
-  accessor name = 'Somebody';
+  @property({ attribute: true, reflect: true })
+  accessor name: string;
+
+  constructor() {
+    super();
+    this.name = 'World';
+  }
 
   render() {
     return html`<p>Hello, ${this.name}!</p>`;
