@@ -40,3 +40,13 @@ Worker stopped with exit code 1
 
 Bun v1.2.22 (macOS arm64)
 ```
+
+## Observations
+
+In the non-workers example, it looks like although it runs, the SimpleGreeting component is not actually getting (deeply) SSR'd (notice the empty content between `<simple-greeting>` tags)
+
+```sh
+{
+  ssrContents: "<!--lit-part My2136iVtRs=-->\n  <!--lit-node 0--><simple-greeting ></simple-greeting>\n<!--/lit-part-->",
+}
+```
